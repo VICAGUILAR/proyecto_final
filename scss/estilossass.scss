@@ -1,0 +1,130 @@
+/*======================Estilos generales=====================*/
+body {
+    background-color: #303030;
+    color: #fff;
+    margin: 0%;
+    padding: 0%;
+}
+h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+}
+h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+h3 {
+    color: #c19d60;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    color: #d3d3d3;
+    font-family: 'Montserrat', sans-serif;
+}
+img:hover {
+    animation-duration: 6s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+   }
+    100% {
+        opacity: 1;
+   }
+}
+/*======================Estilos Index=====================*/
+/* Sección nuestra Historia*/
+#contenedorH {
+    padding: 100px;
+}
+/* Sección nuestros Horarios*/
+#contenedorH2 {
+    background-color: #212121;
+    padding: 120px;
+}
+/* Sección nuestro Equipo*/
+#contenedorEq {
+    padding: 40px;
+}
+.contTitle{
+    margin-bottom: 120px;
+}
+/* Sección nuestra Historia*/
+
+/* Sección Eventos*/
+#contenedorEv {
+    background-color: #212121;
+    padding: 100px;
+}
+/* Sección Clientes*/
+#contenedorC {
+    padding: 100px;
+}
+.border-radius {
+    border-radius: 50%;
+}
+
+.contC{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/*======================Estilos Sobre Nosotros=====================*/
+/* Sección nuestra Historia*/
+#contenedorHi {
+    padding: 100px;
+}
+#contenedorM {
+    background-color: #212121;
+    padding: 60px;
+    margin-bottom: 100px;
+}
+
+
+
+/* Sección Presencia en el mercado*/
+
+.imgNosotros{
+    width: 80px;
+}
+
+.contP{
+    margin-top: 100px;
+}
+
+
+/*======================Estilos Contacto=====================*/
+/* texto contacto*/
+/* Formulario*/
+
+.containerForm{
+    padding: 100px;
+}
+/*======================Estilos galería=====================*/
+#galeria .col-lg-4 {
+    padding: 25px;
+}
+#galeria img {
+    width: 100%;
+    height: 250px;
+}
+#galeria img:hover {
+    border: 5px solid #212121;
+}
+
+.containerGaleria{
+    padding: 100px;
+}
+
+.titulo{
+    margin-bottom: 80px;
+}
+/*======================Estilos Menú=====================*/
+/*======================Estilos Footer=====================*/
