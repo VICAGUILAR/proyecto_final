@@ -19,6 +19,8 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Ephesis&family=Montserrat:wght@100&family=Raleway:wght@100&display=swap" rel="stylesheet">
 
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     
   </head>
   <body>
@@ -26,7 +28,7 @@
     <!-- Menú -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <img src="img/home/logo2.png" width="90px" alt="logotipo">  
+          <a href="index.html"><img src="img/home/logo2.png" width="90px" alt="logotipo"></a>
           <a class="navbar-brand" href="index.html">Café Bar 500 Noches</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -66,7 +68,7 @@
        <section class="container-fluid">
 
         <!-- Nuestra Historia -->
-           <div class="row text-center" id="contenedorHi">
+           <div class="row text-center contenedorSeccHistoria">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <h2>Nuestra Historia</h2>
                     <h3>Algo que Contar</h3>
@@ -78,7 +80,7 @@
            </div>
         
         <!-- Mercado -->
-        <div class="container-fluid text-center" id="contenedorM">
+        <div class="container-fluid text-center contenedorIconosMercado">
             <div class="row">
                 <div class="col">
                     <h2>Presencia en el Mercado</h2>
@@ -109,19 +111,33 @@
         </div>
 
         <!-- Footer -->
-          <footer>
-            <div class="row text-center">
-              <div class="col">
-                <img src="img/footer/facebook.png" width="50px" alt="icono facebook">
+        <footer class="pie-pagina">
+          <div class="grupo-1">
+              <div class="box">
+                  <div class="figure">
+                      <a href="#">
+                          <img class="imgLogo" src="img/home/logo2.png" alt="Logo 500 Noches">
+                      </a>
+                    </div>
               </div>
-              <div class="col">
-                <img src="img/footer/instagram.png" width="50px" alt="icono instagram">
+              <div class="box">
+                  <h2>SOBRE NOSOTROS</h2>
+                  <p>Un lugar dedicado a los encuentros, al tiempo y a la platica. Un lugar que a través del la música en vivo, la decoración, la gastronomía, el café, el vino y el ambiente, creamos momentos contigo, Café Bar 500 Noches está dedicado para ti.</p>
               </div>
-              <div class="col">
-                <img src="img/footer/twitter-sign.png" width="50px" alt="icono twitter">
+              <div class="box">
+                  <h2>SIGUENOS</h2>
+                  <div class="red-social">
+                      <a href="#" class="fa fa-facebook"></a>
+                      <a href="#" class="fa fa-instagram"></a>
+                      <a href="#" class="fa fa-twitter"></a>
+                      <a href="#" class="fa fa-youtube"></a>
+                  </div>
               </div>
-            </div>
-          </footer>
+          </div>
+          <div class="grupo-2">
+              <small>&copy; 2021 <b>VA Design</b> - Todos los Derechos Reservados.</small>
+          </div>
+      </footer>
        </section>
 
     <!-- Optional JavaScript; choose one of the two! -->

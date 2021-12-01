@@ -19,6 +19,8 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Ephesis&family=Montserrat:wght@100&family=Raleway:wght@100&display=swap" rel="stylesheet">
 
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     
   </head>
   <body>
@@ -26,7 +28,7 @@
     <!-- Menú -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <img src="img/home/logo2.png" width="90px" alt="logotipo">  
+            <a href="index.html"><img src="img/home/logo2.png" width="90px" alt="logotipo"></a>  
           <a class="navbar-brand" href="index.html">Café Bar 500 Noches</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -54,10 +56,13 @@
       </nav>
 
       <!-- Slider -->
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/home/SLIDER-500.jpg" class="d-block w-100" alt="banner principal">
+            <img src="img/home/bprincipal.jpg" class="d-block w-100" alt="banner principal">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="display-1">Cáfe Bar 500 Noches</h2>
+              <p class="display-5">Árte, Música y cultura.</p>
           </div>
         </div>
       </div>
@@ -66,7 +71,7 @@
        <section class="container-fluid">
 
         <!-- Nuestra Historia -->
-           <div class="row" id="contenedorH">
+           <div class="row contenedorHistoria">
                 <div class="text-center cecol-sm-12 col-md-6 col-lg-6">
                     <h2>Nuestra Historia</h2>
                     <h3>Algo que Contar</h3>
@@ -78,7 +83,7 @@
            </div>
 
         <!-- Horarios -->
-           <div class="row text-center " id="contenedorH2">
+           <div class="row text-center contenedorHorarios">
                 <div class="col">
                     <img src="img/home/10.jpg"  class="img-fluid" width="650px" alt="platillos 2">
                 </div>
@@ -96,14 +101,14 @@
             </div>
 
         <!-- Nuestro Equipo --> 
-        <div class="row text-center " id="contenedorEq">
+        <div class="row text-center contenedorEquipo">
             <div class="row text-center">
                 <div class="col mb-4 contTitle">
                     <h2>Conoce a nuestros Chefs</h2>
                 </div>
             </div>
-            <div class="col d-flex justify-content-center align-item-center">
-                <div class="card" style="width: 18rem;">
+            <div class="contenedorTarjeta col d-flex justify-content-center align-item-center">
+                <div class="card" style="width: 22rem;">
                     <img src="img/home/ch1.jpg" class="card-img-top" alt="chef 1">
                     <div class="card-body">
                       <h3 class="card-title">Dani García</h3>
@@ -111,8 +116,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col d-flex justify-content-center align-item-center">
-                <div class="card" style="width: 18rem;">
+            <div class="contenedorTarjeta col d-flex justify-content-center align-item-center">
+                <div class="card" style="width: 22rem;">
                     <img src="img/home/ch2.jpg" class="card-img-top" alt="chef 2">
                     <div class="card-body">
                       <h3 class="card-title">Martín Berastegui</h3>
@@ -120,8 +125,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col d-flex justify-content-center align-item-center">
-                <div class="card" style="width: 18rem;">
+            <div class="contenedorTarjeta col d-flex justify-content-center align-item-center">
+                <div class="card" style="width: 22rem;">
                     <img src="img/home/ch3.jpg" class="card-img-top" alt="chef 3">
                     <div class="card-body">
                       <h3 class="card-title">Alberto Durá</h3>
@@ -132,7 +137,7 @@
         </div>       
         
         <!-- Eventos --> 
-        <div class="row" id="contenedorEv">
+        <div class="row contenedorEventos">
             <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                 <h2>Reserva tu mesa</h2>
                 <h3>Proximos eventos</h3>
@@ -150,12 +155,12 @@
         </div>
         
         <!-- Clientes -->
-        <div class="row text-center contC">
+        <div class="row text-center contenedorTextoClientes">
             <div class="col">
                 <h2>Valoraciónes de nuestros Clientes</h2>
             </div>
         </div>
-        <div class="row text-center" id="contenedorC">
+        <div class="row text-center contenedorClientes">
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <img src="img/home/c1.jpg" class="border-radius" alt="cliente 1">
                 <h3>Andy Dimasky</h3>
@@ -172,22 +177,36 @@
                 <p>Excelente lugar, muy rico y agradable, la atención excelente.</p>
             </div>
         </div>
-
-        <!-- Footer --> <!-cambio para bajar a local->
-        <footer>
-          <div class="row text-center">
-            <div class="col">
-              <img src="img/footer/facebook.png" width="50px" alt="icono facebook">
-            </div>
-            <div class="col">
-              <img src="img/footer/instagram.png" width="50px" alt="icono instagram">
-            </div>
-            <div class="col">
-              <img src="img/footer/twitter-sign.png" width="50px" alt="icono twitter">
-            </div>
-          </div>
-        </footer>
        </section>
+
+       <!-- Footer -->
+       <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <div class="figure">
+                    <a href="#">
+                        <img class="imgLogo" src="img/home/logo2.png" alt="Logo 500 Noches">
+                    </a>
+                  </div>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Un lugar dedicado a los encuentros, al tiempo y a la platica. Un lugar que a través del la música en vivo, la decoración, la gastronomía, el café, el vino y el ambiente, creamos momentos contigo, Café Bar 500 Noches está dedicado para ti.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>VA Design</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
